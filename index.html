@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cyber Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <ul>
+          <li><a href="cybersecurity attack.html">Home</a></li>
+          <li><a href="cysyemen.html">Read</a></li>
+          <li><a href="Zero trust.html">Zero Trust</a></li>
+          <li><a href="Ransomware.html">Ransomware</a></li>
+          <li><a href="phssing.html">Phishing</a></li>
+          <li><a href="cybersecurity attack.html">Cybersecurity</a></li>
+          <li><a href="malwer.html">Malware</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- حاوية نموذج تسجيل الدخول -->
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
